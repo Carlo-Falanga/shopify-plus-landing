@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\StoreLeadRequest;
+use App\Mail\LeadReceived;
 use App\Models\Lead;
+use Illuminate\Support\Facades\Mail;
 
 class LeadController extends Controller
 {
@@ -13,7 +15,8 @@ class LeadController extends Controller
             return redirect()->route('landing');
         }
 
-        Lead::create($request->validated());
+        $lead = Lead::create($request->validated());
+        Mail::to(config('mail.lead_to'))->send(new LeadReceived($lead));
 
         return redirect()->route('landing.thanks');
     }
