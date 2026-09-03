@@ -21,3 +21,7 @@
     box-decoration-break: clone;
     -webkit-box-decoration-break: clone;
 }
+
+summary::-webkit-details-marker {
+    display: none;
+}
