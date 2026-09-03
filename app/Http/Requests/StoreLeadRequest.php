@@ -8,6 +8,7 @@ use Illuminate\Validation\Rule;
 
 class StoreLeadRequest extends FormRequest
 {
+    protected $redirect = '/#richiesta';
     /**
      * Determine if the user is authorized to make this request.
      */
