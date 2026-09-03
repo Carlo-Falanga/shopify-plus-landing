@@ -129,6 +129,125 @@
         </div>
     </section>
 
+    <section class="border-t border-stone-200 bg-white px-6 py-24">
+        <div class="mx-auto max-w-5xl">
+            <h2 class="text-center font-display text-2xl font-bold uppercase sm:text-3xl">
+                Perché affidare la migrazione a Webgas
+            </h2>
+            <div class="mt-12 grid gap-10 md:grid-cols-2">
+                <div>
+                    <p class="text-xs font-semibold uppercase tracking-widest text-stone-500">Certificazione</p>
+                    <h3 class="mt-2 text-lg font-bold">Partner ufficiale Shopify Plus</h3>
+                    <p class="mt-2 text-stone-600">
+                        Lavoriamo sulla piattaforma con l'accesso diretto a Shopify e ai suoi strumenti per gli store
+                        enterprise.
+                    </p>
+                </div>
+
+                <div>
+                    <p class="text-xs font-semibold uppercase tracking-widest text-stone-500">Esperienza</p>
+                    <h3 class="mt-2 text-lg font-bold">Oltre 50 brand seguiti</h3>
+                    <p class="mt-2 text-stone-600">
+                        Da Iginio Massari a E. Marinella, da Rifò a Cofidis: negozi con cataloghi, volumi e integrazioni
+                        molto diversi tra loro.
+                    </p>
+                </div>
+
+                <div>
+                    <p class="text-xs font-semibold uppercase tracking-widest text-stone-500">Caso reale</p>
+                    <h3 class="mt-2 text-lg font-bold">Caldaiemurali.it su Shopify Plus</h3>
+                    <p class="mt-2 text-stone-600">
+                        Migrazione completa con redesign dell'esperienza utente per un e-commerce di apparecchiature
+                        termoidrauliche.
+                    </p>
+                </div>
+
+                <div>
+                    <p class="text-xs font-semibold uppercase tracking-widest text-stone-500">Un solo team</p>
+                    <h3 class="mt-2 text-lg font-bold">Sviluppo, dati e advertising in casa</h3>
+                    <p class="mt-2 text-stone-600">
+                        Google Partner e Meta Business Partner: chi migra il sito è lo stesso team che poi fa girare le
+                        campagne. Nessun rimpallo tra fornitori.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="border-t border-stone-200 bg-white px-6 py-24">
+        <div class="mx-auto max-w-3xl">
+            <h2 class="text-center font-display text-2xl font-bold uppercase sm:text-3xl">
+                Domande frequenti
+            </h2>
+            <div class="mt-12 divide-y divide-stone-200 border-y border-stone-200">
+                <details class="group py-5">
+                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-bold">
+                        Perderemo il posizionamento su Google?
+                        <span class="text-xl text-stone-400 transition group-open:rotate-45">+</span>
+                    </summary>
+                    <p class="mt-3 text-stone-600">
+                        No, se la migrazione è fatta bene. Mappiamo ogni URL del vecchio sito su quella nuova con redirect
+                        301,
+                        migriamo titoli, descrizioni e contenuti, e teniamo sotto controllo Search Console dopo il go-live.
+                    </p>
+                </details>
+                <details class="group py-5">
+                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-bold">
+                        Lo storico degli ordini e i clienti registrati si perdono?
+                        <span class="text-xl text-stone-400 transition group-open:rotate-45">+</span>
+                    </summary>
+                    <p class="mt-3 text-stone-600">
+                        Prodotti, clienti e ordini vengono migrati. L'unica cosa che non si può trasferire sono le
+                        password,
+                        perché sono cifrate: i clienti ricevono un invito a impostarne una nuova al primo accesso.
+                    </p>
+                </details>
+                <details class="group py-5">
+                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-bold">
+                        Il negozio si ferma durante il passaggio?
+                        <span class="text-xl text-stone-400 transition group-open:rotate-45">+</span>
+                    </summary>
+                    <p class="mt-3 text-stone-600">
+                        No. Il nuovo negozio viene costruito in parallelo e il vecchio continua a vendere fino al cambio di
+                        dominio,
+                        che programmiamo in una fascia oraria a basso traffico.
+                    </p>
+                </details>
+                <details class="group py-5">
+                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-bold">
+                        Abbiamo tante personalizzazioni fatte su misura
+                        <span class="text-xl text-stone-400 transition group-open:rotate-45">+</span>
+                    </summary>
+                    <p class="mt-3 text-stone-600">
+                        Le censiamo nell'audit. Molte hanno già un equivalente tra le app Shopify,
+                        le altre le ricostruiamo come app dedicate. Spesso alcune non servono più.
+                    </p>
+                </details>
+                <details class="group py-5">
+                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-bold">
+                        Shopify Plus ha un canone: conviene davvero?
+                        <span class="text-xl text-stone-400 transition group-open:rotate-45">+</span>
+                    </summary>
+                    <p class="mt-3 text-stone-600">
+                        Va confrontato con il costo totale di oggi: hosting, plugin a pagamento, ore di sviluppo,
+                        vendite perse nei picchi. Nella call facciamo il conto insieme sui tuoi numeri.
+                    </p>
+                </details>
+                <details class="group py-5">
+                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-bold">
+                        Quanto tempo ci vuole?
+                        <span class="text-xl text-stone-400 transition group-open:rotate-45">+</span>
+                    </summary>
+                    <p class="mt-3 text-stone-600">
+                        Dipende da catalogo e integrazioni. Dopo aver visto il negozio, nella call ti diamo una stima
+                        realistica e non una promessa.
+                    </p>
+                </details>
+            </div>
+        </div>
+    </section>
+
     <section id="richiesta" class="mx-auto max-w-5xl px-6 py-24">
         <h2 class="text-3xl font-bold tracking-tight">Prenota la call gratuita</h2>
 
