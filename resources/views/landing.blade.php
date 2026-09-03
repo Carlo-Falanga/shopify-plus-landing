@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-
     <header class="sticky top-0 z-10 bg-ink">
         <div class="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
             <span class="text-lg font-bold tracking-tight text-white">Webgas</span>
@@ -11,7 +10,7 @@
             </a>
         </div>
     </header>
-
+    {{-- Hero --}}
     <section class="bg-ink px-6 pt-20 pb-24 text-center">
         <div class="mx-auto max-w-5xl">
             <p class="text-sm font-semibold uppercase tracking-widest text-brand">Shopify Plus Partner</p>
@@ -33,7 +32,7 @@
             </div>
         </div>
     </section>
-
+    {{-- Trust band --}}
     <section class="border-b border-stone-200 bg-white px-6 py-12">
         <div class="mx-auto max-w-5xl text-center">
             <p class="text-xs font-semibold uppercase tracking-widest text-stone-500">I brand che scalano con Webgas</p>
@@ -47,7 +46,7 @@
             </p>
         </div>
     </section>
-
+    {{-- Problems --}}
     <section class="bg-white px-6 py-24">
         <div class="mx-auto max-w-5xl">
             <h2 class="text-center font-display text-2xl font-bold uppercase sm:text-3xl">Tre segnali che la piattaforma ti
@@ -82,7 +81,7 @@
             </div>
         </div>
     </section>
-
+    {{-- Process --}}
     <section class="bg-ink px-6 py-24 text-white">
         <div class="mx-auto max-w-5xl">
             <h2 class="text-center font-display text-2xl font-bold uppercase sm:text-3xl">
@@ -128,7 +127,7 @@
             </ol>
         </div>
     </section>
-
+    {{-- Why Webgas --}}
     <section class="border-t border-stone-200 bg-white px-6 py-24">
         <div class="mx-auto max-w-5xl">
             <h2 class="text-center font-display text-2xl font-bold uppercase sm:text-3xl">
@@ -174,7 +173,7 @@
             </div>
         </div>
     </section>
-
+    {{-- FAQ --}}
     <section class="border-t border-stone-200 bg-white px-6 py-24">
         <div class="mx-auto max-w-3xl">
             <h2 class="text-center font-display text-2xl font-bold uppercase sm:text-3xl">
@@ -247,31 +246,18 @@
             </div>
         </div>
     </section>
-
-    <section id="richiesta" class="mx-auto max-w-5xl px-6 py-24">
-        <h2 class="text-3xl font-bold tracking-tight">Prenota la call gratuita</h2>
-
-        @if ($errors->any())
-            <ul>
-                @foreach ($errors->all() as $error)
-                    <li>{{ $error }}</li>
-                @endforeach
-            </ul>
-        @endif
-
-        <form method="POST" action="{{ route('leads.store') }}">
-            @csrf
-            <input type="text" name="name" placeholder="Nome">
-            <input type="text" name="email" placeholder="Email">
-            <input type="text" name="store_url" placeholder="URL negozio">
-            <select name="current_platform">
-                <option value="">Piattaforma...</option>
-                <option value="woocommerce">WooCommerce</option>
-                <option value="magento">Magento</option>
-            </select>
-
-            <button type="submit">Invia</button>
-        </form>
+    {{-- Form --}}
+    <section id="richiesta" class="bg-ink px-6 py-24">
+        <div class="mx-auto max-w-5xl">
+            <h2 class="text-center font-display text-2xl font-bold uppercase text-white sm:text-3xl">Prenota la call
+                gratuita</h2>
+            <p class="mx-auto mt-4 max-w-2xl text-center text-stone-300">
+                30 minuti, senza impegno. Guardiamo insieme il tuo negozio e ti diciamo cosa comporta davvero la
+                migrazione.
+            </p>
+            <div class="mx-auto mt-12 max-w-xl bg-white p-8">
+                @include('partials.lead-form')
+            </div>
+        </div>
     </section>
-
 @endsection
