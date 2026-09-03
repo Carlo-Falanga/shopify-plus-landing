@@ -48,6 +48,87 @@
         </div>
     </section>
 
+    <section class="bg-white px-6 py-24">
+        <div class="mx-auto max-w-5xl">
+            <h2 class="text-center font-display text-2xl font-bold uppercase sm:text-3xl">Tre segnali che la piattaforma ti
+                sta frenando</h2>
+            <div class="mt-12 grid gap-8 md:grid-cols-3">
+                <div class="border-t-4 border-brand pt-6">
+                    <h3 class="text-lg font-bold">Il sito cade quando conta</h3>
+                    <p class="mt-3 text-stone-600">
+                        Black Friday, una campagna che funziona, un prodotto che gira sui social.
+                        I picchi di traffico dovrebbero essere una festa e diventano un'emergenza
+                        tra hosting, cache e plugin da riavviare.
+                    </p>
+                </div>
+
+                <div class="border-t-4 border-brand pt-6">
+                    <h3 class="text-lg font-bold">Ogni modifica costa un preventivo</h3>
+                    <p class="mt-3 text-stone-600">
+                        Aggiornamenti che rompono il tema, plugin a pagamento che si sovrappongono,
+                        uno sviluppatore da chiamare anche per cambiare un banner.
+                        La manutenzione si mangia il budget che dovrebbe andare in marketing.
+                    </p>
+                </div>
+
+                <div class="border-t-4 border-brand pt-6">
+                    <h3 class="text-lg font-bold">Vorresti cambiare, ma hai paura di perdere tutto</h3>
+                    <p class="mt-3 text-stone-600">
+                        Anni di posizionamento su Google, lo storico degli ordini, i clienti registrati.
+                        È il motivo per cui rimandi da mesi. Ed è esattamente il lavoro che facciamo noi.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-ink px-6 py-24 text-white">
+        <div class="mx-auto max-w-5xl">
+            <h2 class="text-center font-display text-2xl font-bold uppercase sm:text-3xl">
+                Come migriamo senza fermare le vendite
+            </h2>
+            <p class="mx-auto mt-4 max-w-2xl text-center text-stone-300">
+                Il vecchio negozio resta online fino al giorno del passaggio.
+                Nel frattempo costruiamo il nuovo in parallelo.
+            </p>
+            <ol class="mt-14 grid gap-10 md:grid-cols-4">
+                <li>
+                    <h3 class="text-xl font-bold text-brand">Audit</h3>
+                    <p class="mt-2 text-stone-300">
+                        Analizziamo catalogo, URL indicizzate, integrazioni e flussi d'ordine.
+                        Decidiamo insieme cosa migrare e cosa lasciare indietro.
+                    </p>
+                </li>
+
+                <li>
+                    <h3 class="text-xl font-bold text-brand">Piano</h3>
+                    <p class="mt-2 text-stone-300">
+                        Mappa dei redirect URL per URL, piano dati per prodotti, clienti e ordini,
+                        lista delle app che sostituiscono i plugin attuali.
+                    </p>
+                </li>
+
+                <li>
+                    <h3 class="text-xl font-bold text-brand">Build in parallelo</h3>
+                    <p class="mt-2 text-stone-300">
+                        Costruiamo il nuovo negozio su Shopify Plus mentre il vecchio continua a vendere.
+                        Tu lo provi e lo approvi prima che vada online.
+                    </p>
+                </li>
+
+                <li>
+                    <h3 class="text-xl font-bold text-brand">Go-live e monitoraggio</h3>
+                    <p class="mt-2 text-stone-300">
+                        Passaggio del dominio, redirect attivi dal primo minuto,
+                        controllo di Search Console e degli ordini nelle settimane successive.
+                    </p>
+                </li>
+
+            </ol>
+        </div>
+    </section>
+
     <section id="richiesta" class="mx-auto max-w-5xl px-6 py-24">
         <h2 class="text-3xl font-bold tracking-tight">Prenota la call gratuita</h2>
 
