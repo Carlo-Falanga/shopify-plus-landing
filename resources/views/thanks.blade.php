@@ -27,3 +27,14 @@
         </main>
     </div>
 @endsection
+
+@push('scripts')
+    @if (session('lead_sent'))
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            window.dataLayer.push({
+                event: 'generate_lead'
+            });
+        </script>
+    @endif
+@endpush

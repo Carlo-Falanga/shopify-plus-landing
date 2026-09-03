@@ -18,6 +18,6 @@ class LeadController extends Controller
         $lead = Lead::create($request->validated());
         Mail::to(config('mail.lead_to'))->send(new LeadReceived($lead));
 
-        return redirect()->route('landing.thanks');
+        return redirect()->route('landing.thanks')->with('lead_sent', true);
     }
 }

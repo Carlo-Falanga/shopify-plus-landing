@@ -19,6 +19,7 @@
         @include('partials.gtm-body')
     @endif
     @yield('content')
+    @stack('scripts')
 </body>
 
 </html>
