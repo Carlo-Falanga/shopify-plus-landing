@@ -6,9 +6,14 @@
         <input type="text" name="website" id="website" tabindex="-1" autocomplete="off">
     </div>
 
-    @if ($errors->any())
-        <p class="mb-6 border-l-4 border-red-600 bg-red-50 px-4 py-3 text-sm text-red-700">Controlla i campi evidenziati
-            e riprova.</p>
+    @if ($errors->has('form'))
+        <p class="mb-6 border-l-4 border-red-600 bg-red-50 px-4 py-3 text-sm text-red-700">
+            {{ $errors->first('form') }}
+        </p>
+    @elseif ($errors->any())
+        <p class="mb-6 border-l-4 border-red-600 bg-red-50 px-4 py-3 text-sm text-red-700">
+            Controlla i campi evidenziati e riprova.
+        </p>
     @endif
 
     <div class="space-y-5">

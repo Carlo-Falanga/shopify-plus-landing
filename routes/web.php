@@ -5,4 +5,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'landing')->name('landing');
 Route::view('/grazie', 'thanks')->name('landing.thanks');
-Route::post('/richiesta', [LeadController::class, 'store'])->name('leads.store');
+Route::post('/richiesta', [LeadController::class, 'store'])
+    ->middleware('throttle:5,1')
+    ->name('leads.store');
