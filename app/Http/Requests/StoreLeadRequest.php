@@ -35,7 +35,7 @@ class StoreLeadRequest extends FormRequest
         return [
             'name' => ['required', 'string', 'max:100'],
             'email' => ['required', 'email', 'max:255'],
-            'store_url' => ['required', 'url', 'regex:/^https?:\/\/[^\/]+\.[a-z]{2,}/i', 'max:255'],
+            'store_url' => ['required', 'url', 'regex:/^https?:\/\/[^\/\s]+\.[a-z]{2,}(?:[\/?#].*)?$/i', 'max:255'],
             'current_platform' => ['required', Rule::in(['woocommerce', 'magento', 'prestashop', 'shopify', 'custom', 'other'])],
             'monthly_orders' => ['nullable', Rule::in(['0-500', '500-2000', '2000-10000', '10000+'])],
         ];
