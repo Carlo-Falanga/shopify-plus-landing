@@ -11,6 +11,7 @@ class LeadController extends Controller
 {
     public function store(StoreLeadRequest $request)
     {
+        // Hidden anti spam field
         if ($request->filled('website')) {
             return redirect()->route('landing');
         }
