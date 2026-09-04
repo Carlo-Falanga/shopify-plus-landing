@@ -55,7 +55,7 @@ class StoreLeadRequest extends FormRequest
             'store_url.max' => "L'indirizzo è troppo lungo.",
             'current_platform.required' => 'Seleziona la piattaforma che usi oggi.',
             'current_platform.in' => 'Seleziona una delle piattaforme proposte.',
-            'monthly_orders.in' => 'Seleziona una delle fasce proposte',
+            'monthly_orders.in' => 'Seleziona una delle fasce proposte.',
         ];
     }
 }
