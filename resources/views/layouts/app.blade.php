@@ -8,9 +8,7 @@
         @include('partials.gtm-head')
     @endif
     <title>@yield('title', 'Migrazione a Shopify Plus senza perdere SEO e ordini - Webgas')</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    @fonts
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
