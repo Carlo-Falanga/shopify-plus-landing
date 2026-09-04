@@ -27,7 +27,7 @@ In un secondo terminale:
 php artisan serve
 ```
 
-La landing è su http://localhost:8000. La pagina di ringraziamento è su /grazie.
+La landing è all'indirizzo stampato da `php artisan serve`, di norma http://127.0.0.1:8000. La pagina di ringraziamento è su /grazie.
 
 Su Windows, al posto di `touch` creare un file vuoto `database/database.sqlite` a mano
 (oppure rispondere sì quando `php artisan migrate` chiede di crearlo).
