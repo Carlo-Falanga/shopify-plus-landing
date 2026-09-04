@@ -33,7 +33,9 @@
         <script>
             window.dataLayer = window.dataLayer || [];
             window.dataLayer.push({
-                event: 'generate_lead'
+                event: 'generate_lead',
+                platform: @json(session('lead_sent.platform')),
+                monthly_orders: @json(session('lead_sent.monthly_orders')),
             });
         </script>
     @endif
