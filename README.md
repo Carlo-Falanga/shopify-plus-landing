@@ -124,6 +124,8 @@ Google Tag Manager e Google Analytics 4 sono su account creati per la prova. Il 
 il tag Google di base su tutte le pagine e un tag evento GA4 che parte sull'evento personalizzato `generate_lead`.
 Il container non è pubblicato: il test è fatto in Anteprima, lo screenshot è in `docs/gtm-preview.png`.
 
+![Anteprima GTM: evento generate_lead con i parametri platform e monthly_orders](docs/gtm-preview.png)
+
 ### L'evento e il momento in cui scatta
 
 L'evento si chiama `generate_lead`, uno dei nomi consigliati da GA4 per una richiesta di contatto.
